@@ -1,0 +1,144 @@
+body{
+    padding: 60px;
+    background: url("https://4kwallpapers.com/images/walls/thumbs_2t/14974.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#neptune{
+    width: 900px;
+    height: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#uranus{
+    width: 800px;
+    height: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#saturn{
+    width: 700px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#jupiter{
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#mars{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#earth{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#venus{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#mercury{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#neptimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 60%;
+    position: absolute;
+    top: 35px;
+    left: 700px;
+    transform-origin: 450px 450px;
+    animation-duration: 18s;
+}
+#uranimage{
+    width: 130px;
+    height: 70px;
+    position: absolute;
+    left: 460px;
+    top: 160px;
+}
+#satimage{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+#jupiimage{
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    top:320px;
+    left: 420px;
+}
+#marsimage{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:240px;
+    left: 670px;
+}
+#earthimage{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:380px;
+    left: 890px;
+}
+#venusimage{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    top: 480px;
+    left: 570px;
+}
+#merimage{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:540px;
+    left: 810px;
+}
+#sunimage{
+    width: 240px;
+    height: 130px;
+    position: absolute;
+    left:640px;
+    top: 460px;
+    animation: orbit 15s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
